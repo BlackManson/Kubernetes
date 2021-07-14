@@ -269,8 +269,8 @@ extraContainerVolumes: []
 ##
 persistence:
   type: pvc
-  enabled: false
-  # storageClassName: default
+  enabled: true
+  storageClassNamee: local-path
   accessModes:
     - ReadWriteOnce
   size: 10Gi
